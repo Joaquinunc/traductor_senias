@@ -1,0 +1,655 @@
+Voice 0:
+ - ID:gmw/af
+ - Name:Afrikaans
+ - Languages:af
+ - Gender:Male
+Voice 1:
+ - ID:sem/am
+ - Name:Amharic
+ - Languages:am
+ - Gender:Male
+Voice 2:
+ - ID:roa/an
+ - Name:Aragonese
+ - Languages:an
+ - Gender:Male
+Voice 3:
+ - ID:sem/ar
+ - Name:Arabic
+ - Languages:ar
+ - Gender:Male
+Voice 4:
+ - ID:inc/as
+ - Name:Assamese
+ - Languages:as
+ - Gender:Male
+Voice 5:
+ - ID:trk/az
+ - Name:Azerbaijani
+ - Languages:az
+ - Gender:Male
+Voice 6:
+ - ID:trk/ba
+ - Name:Bashkir
+ - Languages:ba
+ - Gender:Male
+Voice 7:
+ - ID:zle/be
+ - Name:Belarusian
+ - Languages:be
+ - Gender:Male
+Voice 8:
+ - ID:zls/bg
+ - Name:Bulgarian
+ - Languages:bg
+ - Gender:Male
+Voice 9:
+ - ID:inc/bn
+ - Name:Bengali
+ - Languages:bn
+ - Gender:Male
+Voice 10:
+ - ID:inc/bpy
+ - Name:Bishnupriya Manipuri
+ - Languages:bpy
+ - Gender:Male
+Voice 11:
+ - ID:zls/bs
+ - Name:Bosnian
+ - Languages:bs
+ - Gender:Male
+Voice 12:
+ - ID:roa/ca
+ - Name:Catalan
+ - Languages:ca
+ - Gender:Male
+Voice 13:
+ - ID:iro/chr
+ - Name:Cherokee 
+ - Languages:chr-US-Qaaa-x-west
+ - Gender:Male
+Voice 14:
+ - ID:sit/cmn
+ - Name:Chinese (Mandarin, latin as English)
+ - Languages:cmn
+ - Gender:Male
+Voice 15:
+ - ID:sit/cmn-latn-pinyin
+ - Name:Chinese (Mandarin, latin as Pinyin)
+ - Languages:cmn-latn-pinyin
+ - Gender:Male
+Voice 16:
+ - ID:zlw/cs
+ - Name:Czech
+ - Languages:cs
+ - Gender:Male
+Voice 17:
+ - ID:trk/cv
+ - Name:Chuvash
+ - Languages:cv
+ - Gender:Male
+Voice 18:
+ - ID:cel/cy
+ - Name:Welsh
+ - Languages:cy
+ - Gender:Male
+Voice 19:
+ - ID:gmq/da
+ - Name:Danish
+ - Languages:da
+ - Gender:Male
+Voice 20:
+ - ID:gmw/de
+ - Name:German
+ - Languages:de
+ - Gender:Male
+Voice 21:
+ - ID:grk/el
+ - Name:Greek
+ - Languages:el
+ - Gender:Male
+Voice 22:
+ - ID:gmw/en-029
+ - Name:English (Caribbean)
+ - Languages:en-029
+ - Gender:Male
+Voice 23:
+ - ID:gmw/en
+ - Name:English (Great Britain)
+ - Languages:en-gb
+ - Gender:Male
+Voice 24:
+ - ID:gmw/en-gb-scotland
+ - Name:English (Scotland)
+ - Languages:en-gb-scotland
+ - Gender:Male
+Voice 25:
+ - ID:gmw/en-gb-x-gbclan
+ - Name:English (Lancaster)
+ - Languages:en-gb-x-gbclan
+ - Gender:Male
+Voice 26:
+ - ID:gmw/en-gb-x-gbcwmd
+ - Name:English (West Midlands)
+ - Languages:en-gb-x-gbcwmd
+ - Gender:Male
+Voice 27:
+ - ID:gmw/en-gb-x-rp
+ - Name:English (Received Pronunciation)
+ - Languages:en-gb-x-rp
+ - Gender:Male
+Voice 28:
+ - ID:gmw/en-us
+ - Name:English (America)
+ - Languages:en-us
+ - Gender:Male
+Voice 29:
+ - ID:gmw/en-us-nyc
+ - Name:English (America, New York City)
+ - Languages:en-us-nyc
+ - Gender:Male
+Voice 30:
+ - ID:art/eo
+ - Name:Esperanto
+ - Languages:eo
+ - Gender:Male
+Voice 31:
+ - ID:roa/es
+ - Name:Spanish (Spain)
+ - Languages:es
+ - Gender:Male
+Voice 32:
+ - ID:roa/es-419
+ - Name:Spanish (Latin America)
+ - Languages:es-419
+ - Gender:Male
+Voice 33:
+ - ID:urj/et
+ - Name:Estonian
+ - Languages:et
+ - Gender:Male
+Voice 34:
+ - ID:eu
+ - Name:Basque
+ - Languages:eu
+ - Gender:Male
+Voice 35:
+ - ID:ira/fa
+ - Name:Persian
+ - Languages:fa
+ - Gender:Male
+Voice 36:
+ - ID:ira/fa-latn
+ - Name:Persian (Pinglish)
+ - Languages:fa-latn
+ - Gender:Male
+Voice 37:
+ - ID:urj/fi
+ - Name:Finnish
+ - Languages:fi
+ - Gender:Male
+Voice 38:
+ - ID:roa/fr-be
+ - Name:French (Belgium)
+ - Languages:fr-be
+ - Gender:Male
+Voice 39:
+ - ID:roa/fr-ch
+ - Name:French (Switzerland)
+ - Languages:fr-ch
+ - Gender:Male
+Voice 40:
+ - ID:roa/fr
+ - Name:French (France)
+ - Languages:fr-fr
+ - Gender:Male
+Voice 41:
+ - ID:cel/ga
+ - Name:Gaelic (Irish)
+ - Languages:ga
+ - Gender:Male
+Voice 42:
+ - ID:cel/gd
+ - Name:Gaelic (Scottish)
+ - Languages:gd
+ - Gender:Male
+Voice 43:
+ - ID:sai/gn
+ - Name:Guarani
+ - Languages:gn
+ - Gender:Male
+Voice 44:
+ - ID:grk/grc
+ - Name:Greek (Ancient)
+ - Languages:grc
+ - Gender:Male
+Voice 45:
+ - ID:inc/gu
+ - Name:Gujarati
+ - Languages:gu
+ - Gender:Male
+Voice 46:
+ - ID:sit/hak
+ - Name:Hakka Chinese
+ - Languages:hak
+ - Gender:Male
+Voice 47:
+ - ID:map/haw
+ - Name:Hawaiian
+ - Languages:haw
+ - Gender:Male
+Voice 48:
+ - ID:sem/he
+ - Name:Hebrew
+ - Languages:he
+ - Gender:Male
+Voice 49:
+ - ID:inc/hi
+ - Name:Hindi
+ - Languages:hi
+ - Gender:Male
+Voice 50:
+ - ID:zls/hr
+ - Name:Croatian
+ - Languages:hr
+ - Gender:Male
+Voice 51:
+ - ID:roa/ht
+ - Name:Haitian Creole
+ - Languages:ht
+ - Gender:Male
+Voice 52:
+ - ID:urj/hu
+ - Name:Hungarian
+ - Languages:hu
+ - Gender:Male
+Voice 53:
+ - ID:ine/hy
+ - Name:Armenian (East Armenia)
+ - Languages:hy
+ - Gender:Male
+Voice 54:
+ - ID:ine/hyw
+ - Name:Armenian (West Armenia)
+ - Languages:hyw
+ - Gender:Male
+Voice 55:
+ - ID:art/ia
+ - Name:Interlingua
+ - Languages:ia
+ - Gender:Male
+Voice 56:
+ - ID:poz/id
+ - Name:Indonesian
+ - Languages:id
+ - Gender:Male
+Voice 57:
+ - ID:art/io
+ - Name:Ido
+ - Languages:io
+ - Gender:Male
+Voice 58:
+ - ID:gmq/is
+ - Name:Icelandic
+ - Languages:is
+ - Gender:Male
+Voice 59:
+ - ID:roa/it
+ - Name:Italian
+ - Languages:it
+ - Gender:Male
+Voice 60:
+ - ID:jpx/ja
+ - Name:Japanese
+ - Languages:ja
+ - Gender:Male
+Voice 61:
+ - ID:art/jbo
+ - Name:Lojban
+ - Languages:jbo
+ - Gender:Male
+Voice 62:
+ - ID:ccs/ka
+ - Name:Georgian
+ - Languages:ka
+ - Gender:Male
+Voice 63:
+ - ID:trk/kk
+ - Name:Kazakh
+ - Languages:kk
+ - Gender:Male
+Voice 64:
+ - ID:esx/kl
+ - Name:Greenlandic
+ - Languages:kl
+ - Gender:Male
+Voice 65:
+ - ID:dra/kn
+ - Name:Kannada
+ - Languages:kn
+ - Gender:Male
+Voice 66:
+ - ID:ko
+ - Name:Korean
+ - Languages:ko
+ - Gender:Male
+Voice 67:
+ - ID:inc/kok
+ - Name:Konkani
+ - Languages:kok
+ - Gender:Male
+Voice 68:
+ - ID:ira/ku
+ - Name:Kurdish
+ - Languages:ku
+ - Gender:Male
+Voice 69:
+ - ID:trk/ky
+ - Name:Kyrgyz
+ - Languages:ky
+ - Gender:Male
+Voice 70:
+ - ID:itc/la
+ - Name:Latin
+ - Languages:la
+ - Gender:Male
+Voice 71:
+ - ID:gmw/lb
+ - Name:Luxembourgish
+ - Languages:lb
+ - Gender:Male
+Voice 72:
+ - ID:art/lfn
+ - Name:Lingua Franca Nova
+ - Languages:lfn
+ - Gender:Male
+Voice 73:
+ - ID:bat/lt
+ - Name:Lithuanian
+ - Languages:lt
+ - Gender:Male
+Voice 74:
+ - ID:bat/ltg
+ - Name:Latgalian
+ - Languages:ltg
+ - Gender:Male
+Voice 75:
+ - ID:bat/lv
+ - Name:Latvian
+ - Languages:lv
+ - Gender:Male
+Voice 76:
+ - ID:poz/mi
+ - Name:Māori
+ - Languages:mi
+ - Gender:Male
+Voice 77:
+ - ID:zls/mk
+ - Name:Macedonian
+ - Languages:mk
+ - Gender:Male
+Voice 78:
+ - ID:dra/ml
+ - Name:Malayalam
+ - Languages:ml
+ - Gender:Male
+Voice 79:
+ - ID:inc/mr
+ - Name:Marathi
+ - Languages:mr
+ - Gender:Male
+Voice 80:
+ - ID:poz/ms
+ - Name:Malay
+ - Languages:ms
+ - Gender:Male
+Voice 81:
+ - ID:sem/mt
+ - Name:Maltese
+ - Languages:mt
+ - Gender:Male
+Voice 82:
+ - ID:sit/my
+ - Name:Myanmar (Burmese)
+ - Languages:my
+ - Gender:Male
+Voice 83:
+ - ID:gmq/nb
+ - Name:Norwegian Bokmål
+ - Languages:nb
+ - Gender:Male
+Voice 84:
+ - ID:azc/nci
+ - Name:Nahuatl (Classical)
+ - Languages:nci
+ - Gender:Male
+Voice 85:
+ - ID:inc/ne
+ - Name:Nepali
+ - Languages:ne
+ - Gender:Male
+Voice 86:
+ - ID:gmw/nl
+ - Name:Dutch
+ - Languages:nl
+ - Gender:Male
+Voice 87:
+ - ID:trk/nog
+ - Name:Nogai
+ - Languages:nog
+ - Gender:Male
+Voice 88:
+ - ID:cus/om
+ - Name:Oromo
+ - Languages:om
+ - Gender:Male
+Voice 89:
+ - ID:inc/or
+ - Name:Oriya
+ - Languages:or
+ - Gender:Male
+Voice 90:
+ - ID:inc/pa
+ - Name:Punjabi
+ - Languages:pa
+ - Gender:Male
+Voice 91:
+ - ID:roa/pap
+ - Name:Papiamento
+ - Languages:pap
+ - Gender:Male
+Voice 92:
+ - ID:art/piqd
+ - Name:Klingon
+ - Languages:piqd
+ - Gender:Male
+Voice 93:
+ - ID:zlw/pl
+ - Name:Polish
+ - Languages:pl
+ - Gender:Male
+Voice 94:
+ - ID:roa/pt
+ - Name:Portuguese (Portugal)
+ - Languages:pt
+ - Gender:Male
+Voice 95:
+ - ID:roa/pt-br
+ - Name:Portuguese (Brazil)
+ - Languages:pt-br
+ - Gender:Male
+Voice 96:
+ - ID:art/py
+ - Name:Pyash
+ - Languages:py
+ - Gender:Male
+Voice 97:
+ - ID:art/qdb
+ - Name:Lang_Belta
+ - Languages:qdb
+ - Gender:Male
+Voice 98:
+ - ID:qu
+ - Name:Quechua
+ - Languages:qu
+ - Gender:Male
+Voice 99:
+ - ID:myn/quc
+ - Name:K'iche'
+ - Languages:quc
+ - Gender:Male
+Voice 100:
+ - ID:art/qya
+ - Name:Quenya
+ - Languages:qya
+ - Gender:Male
+Voice 101:
+ - ID:roa/ro
+ - Name:Romanian
+ - Languages:ro
+ - Gender:Male
+Voice 102:
+ - ID:zle/ru
+ - Name:Russian
+ - Languages:ru
+ - Gender:Male
+Voice 103:
+ - ID:zle/ru-lv
+ - Name:Russian (Latvia)
+ - Languages:ru-lv
+ - Gender:Male
+Voice 104:
+ - ID:inc/sd
+ - Name:Sindhi
+ - Languages:sd
+ - Gender:Male
+Voice 105:
+ - ID:tai/shn
+ - Name:Shan (Tai Yai)
+ - Languages:shn
+ - Gender:Male
+Voice 106:
+ - ID:inc/si
+ - Name:Sinhala
+ - Languages:si
+ - Gender:Male
+Voice 107:
+ - ID:art/sjn
+ - Name:Sindarin
+ - Languages:sjn
+ - Gender:Male
+Voice 108:
+ - ID:zlw/sk
+ - Name:Slovak
+ - Languages:sk
+ - Gender:Male
+Voice 109:
+ - ID:zls/sl
+ - Name:Slovenian
+ - Languages:sl
+ - Gender:Male
+Voice 110:
+ - ID:urj/smj
+ - Name:Lule Saami
+ - Languages:smj
+ - Gender:Male
+Voice 111:
+ - ID:ine/sq
+ - Name:Albanian
+ - Languages:sq
+ - Gender:Male
+Voice 112:
+ - ID:zls/sr
+ - Name:Serbian
+ - Languages:sr
+ - Gender:Male
+Voice 113:
+ - ID:gmq/sv
+ - Name:Swedish
+ - Languages:sv
+ - Gender:Male
+Voice 114:
+ - ID:bnt/sw
+ - Name:Swahili
+ - Languages:sw
+ - Gender:Male
+Voice 115:
+ - ID:dra/ta
+ - Name:Tamil
+ - Languages:ta
+ - Gender:Male
+Voice 116:
+ - ID:dra/te
+ - Name:Telugu
+ - Languages:te
+ - Gender:Male
+Voice 117:
+ - ID:tai/th
+ - Name:Thai
+ - Languages:th
+ - Gender:Male
+Voice 118:
+ - ID:trk/tk
+ - Name:Turkmen
+ - Languages:tk
+ - Gender:Male
+Voice 119:
+ - ID:bnt/tn
+ - Name:Setswana
+ - Languages:tn
+ - Gender:Male
+Voice 120:
+ - ID:trk/tr
+ - Name:Turkish
+ - Languages:tr
+ - Gender:Male
+Voice 121:
+ - ID:trk/tt
+ - Name:Tatar
+ - Languages:tt
+ - Gender:Male
+Voice 122:
+ - ID:trk/ug
+ - Name:Uyghur
+ - Languages:ug
+ - Gender:Male
+Voice 123:
+ - ID:zle/uk
+ - Name:Ukrainian
+ - Languages:uk
+ - Gender:Male
+Voice 124:
+ - ID:inc/ur
+ - Name:Urdu
+ - Languages:ur
+ - Gender:Male
+Voice 125:
+ - ID:trk/uz
+ - Name:Uzbek
+ - Languages:uz
+ - Gender:Male
+Voice 126:
+ - ID:aav/vi
+ - Name:Vietnamese (Northern)
+ - Languages:vi
+ - Gender:Male
+Voice 127:
+ - ID:aav/vi-vn-x-central
+ - Name:Vietnamese (Central)
+ - Languages:vi-vn-x-central
+ - Gender:Male
+Voice 128:
+ - ID:aav/vi-vn-x-south
+ - Name:Vietnamese (Southern)
+ - Languages:vi-vn-x-south
+ - Gender:Male
+Voice 129:
+ - ID:sit/yue
+ - Name:Chinese (Cantonese)
+ - Languages:yue
+ - Gender:Male
+Voice 130:
+ - ID:sit/yue-latn-jyutping
+ - Name:Chinese (Cantonese, latin as Jyutping)
+ - Languages:yue
+ - Gender:Male
