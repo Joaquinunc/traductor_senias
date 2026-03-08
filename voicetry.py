@@ -35,23 +35,6 @@ def _shutdown_tts():
     except Exception:
         pass
 
-def all_voices():
-    voices = _engine.getProperty("voices")
-    with open("voices.txt", "w", encoding="utf-8") as f:
-        for index, voice in enumerate(voices):
-            langs = []
-            for lang in getattr(voice, "languages", []):
-                if isinstance(lang, (bytes, bytearray)):
-                    langs.append(lang.decode("utf-8", errors="ignore"))
-                else:
-                    langs.append(str(lang))
-
-            f.write(f"Voice {index}:\n")
-            f.write(f" - ID: {voice.id}\n")
-            f.write(f" - Name: {voice.name}\n")
-            f.write(f" - Languages: {' '.join(langs)}\n")
-            f.write(f" - Gender: {getattr(voice, 'gender', 'unknown')}\n")
-
 def text_voice(text: str):
     """No bloquea: encola el texto y retorna inmediatamente"""
     _tts_queue.put(text)
