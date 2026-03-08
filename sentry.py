@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 
-from voicetry import text_voice, text_voice2
+from voicetry import text_voice
 from five_nums import gesture_processor
 # captura de la camara
 cap = cv2.VideoCapture(0)
@@ -30,11 +30,12 @@ while True:
         
         for handlines in mapHands:
             # pintamos el patron en la imagen og NO en la deteccion
-            mpDraw.draw_landmarks(img,handlines ,mp_hands.HAND_CONNECTIONS)
+            mpDraw.draw_landmarks(img, handlines ,mp_hands.HAND_CONNECTIONS)
             
             # procesamiento del gesto de manos
             hand_gesture = gesture_processor(handlines, mp_hands)
-            
+            # subtitulos
+            cv2.putText(img, hand_gesture, (150, 450), cv2.FONT_HERSHEY_SIMPLEX, 3, (255,255,255), 4)
             #print(f"prev: {previous_gesture}. actual:{hand_gesture}")
             toggleact = previous_gesture != hand_gesture 
             #print(f"enter gestuer: {toggleact}")
