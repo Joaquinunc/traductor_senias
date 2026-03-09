@@ -8,18 +8,11 @@ Los gestos incluidos hasta el momento son los números del 1 al 5
 
 ### Demostración
 A continuacion se puede evr un ejemplo del funcionamiento de la app.
-<table>
-  <tr>
-    <td>
-      <strong>Gesto Derecha</strong>
-      <video src="videos/derecha.mp4"  controls></video>
-    </td>
-    <td>
-      <strong>Gesto Izquierda</strong>
-      <video src="videos/izquierda.mp4"  controls></video>
-    </td>
-  </tr>
-</table>
+#### Mano izquierda
+https://github.com/user-attachments/assets/957522d6-99e4-43ac-80b8-d3fb9f1b8a65
+#### Mano derecha
+https://github.com/user-attachments/assets/a5b7d999-b6a7-4aef-a894-6f0fa0598b4e
+
 
 ## Lanzar aplicación
 Para poder ejecutar la app es necesario seguir la siguiente secuencia de comandos en bash:
