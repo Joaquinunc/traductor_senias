@@ -9,6 +9,9 @@ Los gestos incluidos hasta el momento son los números del 1 al 5
 ### Demostración
 A continuacion se puede evr un ejemplo del funcionamiento de la app.
 
+<video src="videos/izquierda.mp4" width="300" contols></video>
+
+<video src="videos/derecha.mp4" width="300" contols></video>
 
 
 ## Lanzar aplicación
