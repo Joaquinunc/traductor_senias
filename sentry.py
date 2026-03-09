@@ -1,17 +1,18 @@
 import cv2
 import mediapipe as mp
-import pyautogui # lectura de GUI
-from voicetry import text_voice, text_voice2
 
+from voicetry import text_voice
+from five_nums import gesture_processor
 # captura de la camara
 cap = cv2.VideoCapture(0)
 
 mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(static_image_mode=False, max_num_hands=2,    
-                       min_detection_confidence=0.5, min_tracking_confidence=0.5)
+hands = mp_hands.Hands(static_image_mode=False, max_num_hands=1,    
+                       min_detection_confidence=0.7, min_tracking_confidence=0.6)
 
 mpDraw = mp.solutions.drawing_utils
 previous_gesture = ''
+hand_gesture = ''
 while True:
     ret, img = cap.read()
     if not ret:
@@ -29,21 +30,12 @@ while True:
         
         for handlines in mapHands:
             # pintamos el patron en la imagen og NO en la deteccion
-            mpDraw.draw_landmarks(img,handlines ,mp_hands.HAND_CONNECTIONS)
-    
-            #deteccion de posiciones de dedos especificas
-            index_finger_y = handlines.landmark[mp_hands.HandLandmark.INDEX_FINGER_TIP].y
-            thumb_y = handlines.landmark[mp_hands.HandLandmark.THUMB_TIP].y 
+            mpDraw.draw_landmarks(img, handlines ,mp_hands.HAND_CONNECTIONS)
             
-            if index_finger_y < thumb_y:
-                hand_gesture = 'dedo indice apuntando hacia arriba'
-                
-            elif index_finger_y > thumb_y:
-                hand_gesture = 'dedo indice apuntando hacia abajo'
-               
-            else:
-                hand_gesture = ''
-            
+            # procesamiento del gesto de manos
+            hand_gesture = gesture_processor(handlines, mp_hands)
+            # subtitulos
+            cv2.putText(img, hand_gesture, (150, 450), cv2.FONT_HERSHEY_SIMPLEX, 3, (255,255,255), 4)
             #print(f"prev: {previous_gesture}. actual:{hand_gesture}")
             toggleact = previous_gesture != hand_gesture 
             #print(f"enter gestuer: {toggleact}")
@@ -51,7 +43,8 @@ while True:
                 text_voice(hand_gesture)
                 previous_gesture = hand_gesture
             
-
+    #ajustamos tamanio de imagen
+    img = cv2.resize(img, (800,600))
     #mostramos la imagen
     cv2.imshow('Image', img)
     # refrescamos constantemente
